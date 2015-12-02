@@ -1963,7 +1963,7 @@ F 3 "" H 12050 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 13575 5750 0    60   ~ 0
-Switch_5V
+Switch_3V
 $Comp
 L GND #PWR061
 U 1 1 5660BB20
@@ -2068,7 +2068,7 @@ F 3 "" H 11600 5775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10900 6175 0    60   ~ 0
-VFB_5V
+VFB_3V
 Text GLabel 15225 7200 3    60   Output ~ 0
 AGND
 Text GLabel 15400 7200 3    60   Output ~ 0
@@ -2464,4 +2464,6 @@ Wire Wire Line
 	14825 8400 14425 8400
 Wire Wire Line
 	14425 8400 14425 8375
+Text Label 13275 3875 1    60   ~ 0
+Switch_12V
 $EndSCHEMATC
